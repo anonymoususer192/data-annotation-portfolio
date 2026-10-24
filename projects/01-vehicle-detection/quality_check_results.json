@@ -1,0 +1,36 @@
+{
+  "raw_cvat_export": {
+    "images": 30,
+    "annotations": 159,
+    "annotations_by_class": {
+      "car": 28,
+      "motorcycle": 34,
+      "bus": 0,
+      "truck": 41,
+      "person": 56
+    }
+  },
+  "portfolio_reviewed_copy": {
+    "images": 30,
+    "annotations": 158,
+    "annotations_by_class": {
+      "car": 28,
+      "motorcycle": 34,
+      "bus": 0,
+      "truck": 41,
+      "person": 55
+    }
+  },
+  "visual_spot_check_correction": {
+    "annotations_removed_from_reviewed_copy": 1,
+    "removed_raw_annotation_ids": [3],
+    "reason": "Likely false-positive person box over a bag-like roadside object in sample 03. Raw CVAT export is preserved separately."
+  },
+  "structural_checks_on_reviewed_copy": {
+    "images_without_annotations": 0,
+    "non_positive_bbox_sizes": 0,
+    "boxes_outside_image_bounds": 0,
+    "exact_duplicate_boxes": 0
+  },
+  "limitations": "Structural checks do not prove semantic correctness or completeness. The original CVAT task has not been edited, and one vehicle class in review-needed sample 04 remains ambiguous."
+}
