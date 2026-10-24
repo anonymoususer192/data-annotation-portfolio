@@ -1,0 +1,6 @@
+class,raw_cvat_export_count,portfolio_reviewed_count
+car,28,28
+motorcycle,34,34
+bus,0,0
+truck,41,41
+person,56,55
